@@ -56,7 +56,7 @@ class LSTMP(nn.Module):
 
         # Reading parameters
         self.input_dim = inp_dim
-        print('input= ', self.input_dim)
+        #print('input= ', self.input_dim)
         self.lstm_lay = list(map(int, options["lstm_lay"].split(",")))
         self.proj_lay =  list(map(int, options["proj_lay"].split(",")))
         self.lstm_drop = list(map(float, options["lstm_drop"].split(",")))
