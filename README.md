@@ -1,6 +1,6 @@
 # Implementation-of-LSTMP-based-on-pytorch-kaldi
 
-This is the implementation of Deep Long Short-Term Memory Recurrent Neural Network with projection layer(DLSTMP).
+Implementation of Deep Long Short-Term Memory Recurrent Neural Network with projection layer(DLSTMP).
 
 This is the supplementary part of neural_networks.py in pytorch-kaldi.
 
