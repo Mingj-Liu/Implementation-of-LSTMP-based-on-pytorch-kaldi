@@ -174,6 +174,7 @@ class LSTMP(nn.Module):
                 # Initial state and concatenation
                 if self.bidir:
                     r_init = torch.zeros(2 * x.shape[1], self.proj_lay[i])
+                    c_init = torch.zeros(2 * x.shape[1], self.lstm_lay[i])
                     x = torch.cat([x, flip(x, 0)], 1)
                 else:
                     c_init = torch.zeros(x.shape[1], self.lstm_lay[i])
